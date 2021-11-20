@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Webpage Title -->
+    <title>Auto2000</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/fontawesome-all.min.css" rel="stylesheet">
+    <link href="css/swiper.css" rel="stylesheet">
+	<link href="css/styles.css" rel="stylesheet">
+	<link rel="stylesheet" href="chat.css">
+    <link rel="icon" href="images/astra2000logo.png">
+</head>
+
+<body data-bs-spy="scroll" data-bs-target="#navbarExample">
+    <!-- NavBar -->
+    <nav id="navbarExample" class="navbar navbar-expand-lg fixed-top navbar-light" aria-label="Main navigation">
+        <div class="container">
+
+            <!-- Image Logo -->
+            <a class="navbar-brand logo-image" href="index.html"><img src="images/astra2000logo.png" alt="alternative"></a> 
+            <button class="navbar-toggler p-0 border-0" type="button" id="navbarSideCollapse" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="navbar-collapse offcanvas-collapse" id="navbarsExampleDefault">
+                <ul class="navbar-nav ms-auto navbar-nav-scroll">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#header">Beranda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">Layanan</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Produk</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#pricing">Servis</a>
+                    </li>
+                    
+                </ul>
+                <span class="nav-item">
+                    <a class="btn-solid-sm" href="#contact">Hubungi Kami</a>
+                </span>
+            </div> 
+        </div> 
+    </nav> 
+
+    <!-- Header -->
+    <header id="header" class="header">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-xl-5">
+                    <div class="text-container">
+                        <div class="section-title">Selamat Datang di Auto2000</div>
+                        <h1 class="h1-large">Auto2000 hadir mewujudkan mobil impianmu</h1>
+                        <p class="p-large">Yang terbaru dari TOYOTA, mobil legenda masyarakat indonesia </p>
+                        <a class="btn-solid-lg" href="#services">Layanan Kami</a>
+                        <a class="quote" href="#contact"><i class="fas fa-paper-plane"></i>Hubungi Kami</a>
+                    </div> 
+                </div> 
+                <div class="col-lg-6 col-xl-7">
+                    <div class="image-container">
+                        <img class="img-fluid" src="images/headermobil.jpg" alt="alternative">
+                    </div> 
+                </div> 
+            </div> 
+        </div> 
+    </header> 
+
+    <div id="services" class="cards-1">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    
+                    <!-- Card -->
+                    <div class="card">
+                        <div class="image-servis">
+                            <img src="images/servis.jpg" alt="Servis Mobil" width="250" height="170">
+                            <span class="spanened"></span>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Servis</h5>
+                            <p>Layanan servis dari Auto2000 siap membawa mobil Anda ke versi terbaiknya</p>
+                            <ul class="list-unstyled li-space-lg">
+                                <li class="d-flex">
+                                    <i class="fas fa-check"></i>
+                                    <div class="flex-grow-1">Ganti Oli</div>
+                                </li>
+                                <li class="d-flex">
+                                    <i class="fas fa-check"></i>
+                                    <div class="flex-grow-1">Spooring dan Balancing</div>
+                                </li>
+                                <li class="d-flex">
+                                    <i class="fas fa-check"></i>
+                                    <div class="flex-grow-1">Power Steering</div>
+                                </li>
+                                <li class="d-flex">
+                                    <i class="fas fa-check"></i>
+                                    <div class="flex-grow-1">Turun Mesin</div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="image-produk">
+                            <img src="images/produk.jpg" alt="Produk Mobil" width="250" height="170">
+                            <span class="spanened"></span>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Produk</h5>
+                            <p>Nikmati kemudahan berkendara dengan sensasi terbaik di kelasnya</p>
+                            <ul class="list-unstyled li-space-lg">
+                                <li class="d-flex">
+                                    <i class="fas fa-check"></i>
+                                    <div class="flex-grow-1">Mobil</div>
+                                </li>
+                                <li class="d-flex">
+                                    <i class="fas fa-check"></i>
+                                    <div class="flex-grow-1">Truk</div>
+                                </li>   
+                                <li class="d-flex">
+                                    <i class="fas fa-check"></i>
+                                    <div class="flex-grow-1">Aksesoris</div>
+                                </li>
+                                <li class="d-flex">
+                                    <i class="fas fa-check"></i>
+                                    <div class="flex-grow-1">Sparepart</div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="image-produk">
+                            <img src="images/purnajual.jpg" alt="Produk Mobil" width="250" height="170">
+                            <span class="spanened"></span>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Purna Jual</h5>
+                            <p>Menggunakan kendaraan lama dengan kualitas yang terjamin</p>
+                            <ul class="list-unstyled li-space-lg">
+                                <li class="d-flex">
+                                    <i class="fas fa-check"></i>
+                                    <div class="flex-grow-1">SUV</div>
+                                </li>
+                                <li class="d-flex">
+                                    <i class="fas fa-check"></i>
+                                    <div class="flex-grow-1">Sedan</div>
+                                </li>
+                                <li class="d-flex">
+                                    <i class="fas fa-check"></i>
+                                    <div class="flex-grow-1">Pick-up</div>
+                                </li>
+                                <li class="d-flex">
+                                    <i class="fas fa-check"></i>
+                                    <div class="flex-grow-1">City Car</div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div> 
+            </div> 
+        </div> 
+    </div> 
+
+    <!-- Map|Location -->
+    <div id="staticBackdrop" class="modal fade" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="row">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    <div class="col-lg-8">
+                        <div class="image-container">
+                            <div class="u-clearfix u-layout-wrap u-layout-wrap-1">
+                                <div class="u-layout">
+                                  <div class="u-layout-row">
+                                    <div class="u-black u-container-style u-layout-cell u-right-cell u-size-60 u-layout-cell-1">
+                                      <div class="u-container-layout u-container-layout-2">
+                                        <div class="u-expanded u-grey-light-2 u-map">
+                                          <div class="embed-responsive">
+                                            <iframe class="embed-responsive-item" src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d63320.48390133102!2d112.77236938527528!3d-7.2941631679758325!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sauto2000!5e0!3m2!1sid!2sid!4v1637288452454!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                        </div> 
+                    </div> 
+                    <div class="col-lg-4">
+                        <h3>Auto2000 terdekat</h3>
+                        
+                        <hr>
+                        <p>Tak ada yang perlu dikhawatirkan untuk datang ke Auto2000, bengkel kesayangan Anda</p>
+                    </div> 
+                </div> 
+            </div> 
+        </div> 
+    </div> 
+
+    <div class="counter">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-xl-5">
+                    <div class="text-container">
+                        <h2><span>selalu ada</span><br>UNTUK ANDA</h2>
+                        <p>Bengkel -> Termasuk bengkel GR & BP di seluruh Indonesia</p>
+                        <p>THS - Auto2000 Home Service -> Melayani servis kendaraan Anda tanpa harus keluar rumah</p>
+                        
+                        <div class="counter-container">
+                            <div class="counter-cell">
+                                <div data-purecounter-start="0" data-purecounter-end="135" data-purecounter-duration="2" class="purecounter">1</div>
+                                <div class="counter-info">Bengkel</div>
+                            </div> 
+                            <div class="counter-cell red">
+                                <div data-purecounter-start="0" data-purecounter-end="400" data-purecounter-duration="2" class="purecounter">1</div>
+                                <div class="counter-info">THS - Auto2000 Home Service</div>
+                            </div> 
+
+                            <a class="btn-solid-reg" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Temukan Auto2000 terdekat</a>
+                        </div> 
+                    </div> 
+                </div> 
+                <div class="col-lg-6 col-xl-7">
+                    <div class="image-container">
+                        <img class="img-fluid" src="images/toko.jpg" alt="alternative">
+                    </div> 
+                </div> 
+            </div> 
+        </div> 
+    </div> 
+
+	<div id="projects" class="filter bg-gray">
+		<div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h2 class="h2-heading">Produk Kami</h2>
+                </div> 
+            </div> 
+            <div class="row">
+                <div class="col-lg-12">
+                    
+                    <div class="button-group filters-button-group">
+                        <button class="button is-checked" data-filter="*">SEMUA</button>
+                        <button class="button" data-filter=".mobil">MOBIL</button>
+                        <button class="button" data-filter=".aksesoris">AKSESORIS</button>
+                        <button class="button" data-filter=".sparepart">SPARE PART</button>
+                    </div> 
+                    <div class="grid">
+                        <div class="element-item mobil">
+                            <a href="article.html">
+                                <img class="img-fluid" src="images/avanza.png" width="350" alt="alternative">
+                                <p><strong>All New Avanza</strong> - Kini dengan format baru, siap menjadi mobil keluarga Anda.</p>
+                            </a>
+                        </div>
+                        <div class="element-item sparepart">
+                            <a href="article.html">
+                                <img class="img-fluid" src="images/filter.jpg" width="350" alt="alternative">
+                                <p><strong>Filter AC</strong> - Memberikan kesegaran penuh pada kabin mobil kesayangan Anda</p>
+                            </a>
+                        </div>
+                        <div class="element-item mobil">
+                            <a href="article.html">
+                                <img class="img-fluid" src="images/fortuner.jpg" width="350" alt="alternative">
+                                <p><strong>Fortuner Facelift</strong> - Dengan konsep mutakhir, jadikan teman spesial perjalananmu.</p>
+                            </a>
+                        </div>
+                        <div class="element-item mobil">
+                            <a href="article.html">
+                                <img class="img-fluid" src="images/yaris.png" width="350" alt="alternative">
+                                <p><strong>Yaris GR</strong> - Dibuat khusus untuk Anda yang berjiwa muda dan beradrenalin</p>
+                            </a>
+                        </div>
+                        <div class="element-item aksesoris">
+                            <a href="article.html">
+                                <img class="img-fluid" src="images/androidhu.jpg" width="350" alt="alternative">
+                                <p><strong>Android Head Unit</strong> - Menjadikan mobil kesayangan Anda seolah ponsel pribadi Anda</p>
+                            </a>
+                        </div>
+                        <div class="element-item aksesoris">
+                            <a href="article.html">
+                                <img class="img-fluid" src="images/gps.jpg" width="350" alt="alternative">
+                                <p><strong>GPS Tracker</strong> - Menjamin keamanan mobil Anda, kapanpun dimanapun</p>
+                            </a>
+                        </div>
+                        <div class="element-item sparepart">
+                            <a href="article.html">
+                                <img class="img-fluid" src="images/aki.jpg" width="350" alt="alternative">
+                                <p><strong>Aki</strong> - Aki orisinil di Toyota, membawa mobil pada ku</p>
+                            </a>
+                        </div>
+                        <div class="element-item mobil">
+                            <a href="article3.html">
+                                <img class="img-fluid" src="images/altis.jpg" width="350" alt="alternative">
+                                <p><strong>Corolla Altis</strong> - Kenyamanan berbalut kemewahan dipadukan menjadi satu</p>
+                            </a>
+                        </div>
+                        <div class="element-item aksesoris">
+                            <a href="article.html">
+                                <img class="img-fluid" src="images/kacafilm.jpg" width="350" alt="alternative">
+                                <p><strong>Kaca Film</strong> - Memastikan ruang privat bagi Anda dan keluarga</p>
+                            </a>
+                        </div>
+                    </div> 
+                </div> <!-- end of col -->
+            </div> 
+		</div> 
+    </div> 
+
+    <!-- Highlight -->
+    <div class="slider-1">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h2 class="h2-heading"><br> Highlight Video</h2>
+                    <div class="slider-container">
+                        <div class="swiper-container card-slider">
+                            <div class="swiper-wrapper">
+                                
+                                <div class="swiper-slide">
+                                    <div class="card">
+                                        <iframe width="540" height="315" src="https://www.youtube.com/embed/oHblX-_2TE0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                    </div> 
+                                </div> 
+
+                                <div class="swiper-slide">
+                                    <div class="card">
+                                        <iframe width="540" height="315" src="https://www.youtube.com/embed/S__TkFYLWQs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                    </div> 
+                                </div> 
+
+                                <div class="swiper-slide">
+                                    <div class="card">
+                                        <iframe width="540" height="315" src="https://www.youtube.com/embed/pV1dfRoLiX8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                    </div> 
+                                </div>
+
+                                <div class="swiper-slide">
+                                    <div class="card">
+                                        <iframe width="540" height="315" src="https://www.youtube.com/embed/0JbuBPDEKAA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                    </div> 
+                                </div> 
+                            </div> 
+        
+                            <!-- Panah swiper -->
+                            <div class="swiper-button-next"></div>
+                            <div class="swiper-button-prev"></div>
+                        </div> 
+                    </div> 
+                </div> 
+            </div> 
+        </div> 
+    </div> 
+
+    <div id="pricing" class="cards-2">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h2 class="h2-heading"><br> Layanan Servis</h2>
+                </div> 
+            </div> 
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="card-title">
+                                <img class="decoration-lines" src="images/decoration-lines.svg" alt="alternative"><span>Spooring&Balancing</span><img class="decoration-lines flipped" src="images/decoration-lines.svg" alt="alternative">
+                            </div>
+                            <ul class="list-unstyled li-space-lg">
+                                <li>Jika mobil Anda memiliki  </li>
+                                <li>mobilitas tinggi dan sering  </li>
+                                <li>melewati jalanan yang tidak rata,</li>
+                                <li>mungkin gejala yang Anda rasakan </li>
+                                <li>yaitu setir mobil agak berat ke </li>
+                                <li>kiri atau ke kanan. Itu merupakan</li>
+                                <li>salah satu tanda bahwa mobil Anda </li>
+                                <li>perlu di spooring dan balancing</li>
+                            </ul>
+                            <a href="#contact" class="btn-outline-reg">Hubungi Kami</a>
+                        </div>
+                    </div>
+                 
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="card-title">
+                                <img class="decoration-lines" src="images/decoration-lines.svg" alt="alternative"><span>Ganti Oli</span><img class="decoration-lines flipped" src="images/decoration-lines.svg" alt="alternative">
+                            </div>
+                            <ul class="list-unstyled li-space-lg">
+                                <li>Ganti oli wajib dilakukan </li>
+                                <li>secara rutin, meskipun mobil</li>
+                                <li>Anda jarang digunakan atau</li>
+                                <li>belum menempuh jarak minimal.</li>
+                                <li>Alasannya, setelah masuk ke </li>
+                                <li>dalam mesin, oli akan tercampur </li>
+                                <li>dengan komponen mesin, dan bisa </li>
+                                <li>jadi diantaranya adalah kerak, bubuk gram dan lainnya</li>
+                            </ul>
+                            <a href="#contact" class="btn-outline-reg">Hubungi Kami</a>
+                        </div>
+                    </div>
+                   
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="card-title">
+                                <img class="decoration-lines" src="images/decoration-lines.svg" alt="alternative"><span>Power Steering</span><img class="decoration-lines flipped" src="images/decoration-lines.svg" alt="alternative">
+                            </div>
+                            <ul class="list-unstyled li-space-lg">
+                                <li>Power steering sejatinya </li>
+                                <li>membutuhkan pengecekan dan </li>
+                                <li>perawatan secara rutin. Tujuannya </li>
+                                <li>untuk menjaga kenyamanan</li>
+                                <li>dan keselamatan ketika berkendara.</li>
+                                <li>Jangan menunda pengecekan power </li>
+                                <li>steering Anda hingga terdapat masalah </li>
+                                <li>serius, karena biaya yang dikeluarkan akan lebih besar.</li>
+                            </ul>
+                            <a href="#contact" class="btn-outline-reg">Hubungi Kami</a>
+                        </div>
+                    </div>
+                </div> 
+            </div> 
+        </div> 
+    </div> 
+
+
+    <!-- Promo -->
+    <div class="basic-2">
+        <div class="container">
+            <div class="row">
+                <h2 class="h2-heading">Promo Servis</h2>
+                <div class="col-lg-12">
+                    <div class="text-container"></div> 
+                </div> 
+            </div> 
+        </div> 
+    </div>
+
+    <!-- Hubungi Kami -->
+    <div id="contact" class="form-1">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h2 class="h2-heading">Hubungi Kami</h2>
+                    <p class="p-heading">Silakan isi form di bawah ini jika Anda memiliki pertanyaan terkait produk, layanan, atau pertanyaan lain.</p>
+                    <ul class="list-unstyled li-space-lg">
+                        <li><i class="fas fa-map-marker-alt"></i> &nbsp;Jl. Dr. Ir. H. Soekarno No.35, Klampis Ngasem</li>
+                        <li><i class="fas fa-phone"></i> &nbsp;<a href="(031) 5952000">(031) 5952000</a></li>
+                        <li><i class="fas fa-envelope"></i> &nbsp;<a href="auto2000@astra.com">auto2000@astra.com</a></li>
+                    </ul>
+                </div> 
+            </div> 
+            <div class="row">
+                <div class="col-lg-10 offset-lg-1">
+                    
+                    <form>
+                        <div class="form-group">
+                            <input type="text" class="form-control-input" placeholder="Nama" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" class="form-control-input" placeholder="Email" required>
+                        </div>
+                        <div class="form-group">
+                            <select class="form-control-select" required>
+                                <option class="select-option" value="" disabled selected>Jenis Pertanyaan</option>
+                                <option class="select-option" value="Company Website">Pertanyaan Umum</option>
+                                <option class="select-option" value="Landing Page">Pertanyaan Terkait Servis</option>
+                                <option class="select-option" value="Online Shop">Komplain Customer</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <textarea class="form-control-textarea" placeholder="Pesan" required></textarea>
+                        </div>
+                        <div class="form-group">
+                            <button type="submit" class="form-control-submit-button">Kirimkan</button>
+                        </div>
+                    </form>
+                </div> 
+            </div> 
+        </div> 
+    </div> 
+
+    <!-- Footer -->
+    <div class="footer bg-gray">
+        <img class="decoration-city" src="images/decoration-city.svg" alt="alternative">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h4>Ikuti kami di media sosial Anda</h4>
+                    <div class="social-container">
+                        <span class="fa-stack">
+                            <a href="https://www.youtube.com/c/Auto2000IDchannel">
+                                <i class="fas fa-circle fa-stack-2x"></i>
+                                <i class="fab fa-youtube fa-stack-1x"></i>
+                            </a>
+                        </span>
+                    </div> 
+                </div> 
+            </div> 
+        </div> 
+    </div> 
+
+    <div class="copyright bg-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <ul class="list-unstyled li-space-lg p-small">
+                        <li><a href="article.html">Hubungi Kami</a></li>
+                        <li><a href="terms.html">Media Sosial</a></li>
+                        <li><a href="privacy.html">Privacy Policy</a></li>
+                    </ul>
+                </div> 
+                <div class="col-lg-6">
+                    <p class="p-small statement">Copyright © <a href="#">AlbertJonathan   </a></p>
+                </div> 
+            </div> 
+        </div> 
+    </div>
+    
+    <div class="chat-bar-collapsible">
+        <button id="chat-button" type="button" class="collapsible"><img class="need-help-image lzy_img" src="images/tanyatasia.png" alt="Background Lazy GIF" ><i>Tanya Tasia</i>
+    
+        </button>
+  
+        <div class="content">
+            <div class="full-chat-block">
+                <div class="outer-container">
+                    <div class="chat-container">
+                        <div id="chatbox">
+                            <h5 id="chat-timestamp"></h5>
+                            <p id="botStarterMessage" class="botText"><span>Loading...</span></p>
+                        </div>
+  
+                        <div class="chat-bar-input-block">
+                            <div id="userInput">
+                                <input id="textInput" class="input-box" type="text" name="msg"
+                                    placeholder="Type message..." style="font-style: italic;">
+                                <p></p>
+                            </div>
+  
+                            <div class="chat-bar-icons">
+                                <i id="chat-icon" style="color: #333;" class="fa fa-fw fa-send"
+                                    onclick="sendButton()"></i>
+                            </div>
+                        </div>
+  
+                        <div id="chat-bar-bottom">
+                            <p></p>
+                        </div>
+  
+                    </div>
+                </div>
+  
+            </div>
+        </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="js/responses.js"></script>
+        <script src="js/chat.js"></script>
+
+    <!-- Tombol ke atas -->
+    <button onclick="topFunction()" id="myBtn">
+        <img src="images/up-arrow.png" alt="alternative">
+    </button>
+    	
+    <!-- Scripts -->
+    <script src="js/bootstrap.min.js"></script> 
+    <script src="js/swiper.min.js"></script> 
+    <script src="js/purecounter.min.js"></script> 
+    <script src="js/isotope.pkgd.min.js"></script> 
+    <script src="js/scripts.js"></script> 
+</body>
+</html>
